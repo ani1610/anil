@@ -1,0 +1,496 @@
+/* MEDIA QUERY FIRST */
+
+@media only screen and (max-width:1400px) {
+    /* SERVICES PAGE */
+
+
+    #section_service::before {
+      content: "";
+      position: absolute;
+      height: 603px;
+      width: 100%;
+      background: url('../imgswm/img_1.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      z-index: -1;
+      opacity: 1;
+  
+    }
+
+  /* COMING SOON  */
+
+
+
+  #comingsooncontainer::before {
+    content: "";
+    position: absolute;
+    height: 520px;
+    width: 100%;
+    background: url('../imgswm/img_4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+    opacity: 0.77;
+    margin-left: -12px;
+  }
+
+  #comingsoon {
+    height: 60%;
+    width:60%;
+    padding-top: 0%;
+    background-color: rgba(119, 166, 207, 0.632);
+    margin-bottom: 12px;
+    margin-top: 4%;
+    padding-bottom: 1%;
+    border: 4px solid rgba(36, 239, 25, 0.339);
+    border-radius: 0%;
+  }
+
+
+  #comingsooneveryone {
+    height: 60%;
+    width: 60%;
+    padding: 4%;
+    padding-top: 5%;
+    background-color: rgba(119, 166, 207, 0.632);
+    margin-bottom: 12px;
+    margin-top: 4%;
+    padding-bottom: 1%;
+    border: 4px solid rgba(17, 116, 203, 0.339);
+
+  }
+
+
+
+
+  /* About section */
+
+  #aboutmyself {
+    height: 65%;
+    width: 60%;
+    margin: 6% 5%;
+    padding: 4% 6%;
+    padding-bottom: 10%;
+    background-color: rgba(67, 168, 186, 0.59);
+    border: 2px solid blueviolet;
+    border-radius: 2%;
+    font-weight: 100;
+  }
+
+}
+
+
+/* MEDIA QUERY SECOND*/
+
+
+@media only screen and (max-width:1240px) {
+
+  /* COMING SOON  */
+
+
+
+  #comingsooncontainer::before {
+    content: "";
+    position: absolute;
+    height: 90%;
+    width: 100%;
+    background: url('../imgswm/img_4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+    opacity: 0.77;
+    margin-left: -12px;
+  }
+
+  #comingsoon {
+    height: 67%;
+    width: 60%;
+    padding-top: 0%;
+    background-color: rgba(119, 166, 207, 0.632);
+    margin-bottom: 12px;
+    margin-top: 4%;
+    padding-bottom: 1%;
+    border: 4px solid rgba(36, 239, 25, 0.339);
+    border-radius: 0%;
+  }
+
+
+  #comingsooneveryone {
+    height: 100%;
+    width: 100%;
+    padding-top: 5%;
+    background-color: rgba(119, 166, 207, 0.632);
+    margin-bottom: 12px;
+    margin-top: 4%;
+    padding-bottom: 1%;
+    border: 4px solid rgba(17, 116, 203, 0.339);
+
+  }
+
+
+  #aboutmyself {
+    height: 60%;
+    width: 90%;
+    margin: 6% 5%;
+    padding: 4% 6%;
+    padding-bottom: 10%;
+    background-color: rgba(67, 168, 186, 0.59);
+    border: 2px solid blueviolet;
+    border-radius: 2%;
+    font-weight: 100;
+
+  }
+
+
+  
+  /* COMING SOON  */
+  #comingsooncontainer::before {
+    content: "";
+    position: absolute;
+    height: 488px;
+    width: 100%;
+    background: url('../imgswm/img_4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+    opacity: 0.77;
+    margin-left: -12px;
+  }
+
+  #comingsoon {
+    height: 60%;
+    width: 75%;
+    padding-top: 0%;
+    background-color: rgba(119, 166, 207, 0.632);
+    margin-bottom: 12px;
+    margin-top: 4%;
+    padding-bottom: 1%;
+    border: 4px solid rgba(36, 239, 25, 0.339);
+    border-radius: 0%;
+  }
+
+
+  #comingsooneveryone {
+    height: 60%;
+    width: 80%;
+    padding-top: 5%;
+    background-color: rgba(119, 166, 207, 0.632);
+    margin-bottom: 12px;
+    margin-top: 4%;
+    padding-bottom: 1%;
+    border: 4px solid rgba(17, 116, 203, 0.339);
+
+  }
+}
+
+
+
+
+/* MEDIA QUERY THIRD*/
+
+
+@media only screen and (max-width:992px) {
+ 
+
+  /* CONTACT FORM */
+
+  form {
+    width: 100%;
+    height: 100%;
+    padding-left: 1%;
+    padding-right: 2%;
+  }
+
+  #contactform {
+    padding-top: 5%;
+    height: 100%;
+    width: 80%;
+    padding-left: 2%;
+    margin-top: 12%;
+
+  }
+
+  #contactformmain::before {
+    content: "";
+    position: absolute;
+    height: 720px;
+    width: 100%;
+    background: url('../imgswm/img_5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+    opacity: 0.57;
+    margin-left: -12px;
+  }
+
+  /* FOOTER */
+
+
+
+  footer::before {
+    content: "";
+    position: absolute;
+    background: url("../imgswm/footerImg.jpg");
+    height: 540px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.76;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* SERVICES PAGE */
+
+
+  #section_service::before {
+    content: "";
+    position: absolute;
+    height: 602px;
+    width: 100%;
+    background: url('../imgswm/img_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    opacity: 1;
+
+  }
+
+  #service_container {
+    padding-top: 3%;
+  }
+
+  /* COMING SOON  */
+  #comingsooncontainer::before {
+    content: "";
+    position: absolute;
+    height: 428px;
+    width: 100%;
+    background: url('../imgswm/img_4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+    opacity: 0.77;
+    margin-left: -12px;
+  }
+
+  #comingsoon {
+    height: 100%;
+    width: 100%;
+    padding-top: 0%;
+    background-color: rgba(119, 166, 207, 0.632);
+    margin-bottom: 12px;
+    margin-top: 4%;
+    padding-bottom: 1%;
+    border: 4px solid rgba(36, 239, 25, 0.339);
+    border-radius: 0%;
+  }
+
+
+  #comingsooneveryone {
+    height: 50%;
+    width: 100%;
+    padding-top: 5%;
+    background-color: rgba(119, 166, 207, 0.632);
+    margin-bottom: 12px;
+    margin-top: 4%;
+    padding-bottom: 1%;
+    border: 4px solid rgba(17, 116, 203, 0.339);
+
+  }
+
+
+
+
+  /* ABOUT US PAGE */
+  #aboutimg img {
+    margin-top:22px;
+    height: 90%;
+    width: 100%;
+    border: 2px solid blueviolet;
+  }
+
+  #aboutmyself {
+    height: 100%;
+    width: 100%;
+    padding: 4% 0%;
+    background-color: rgba(67, 168, 186, 0.59);
+    border: 2px solid blueviolet;
+    border-radius: 2%;
+    font-weight: 100;
+  }
+}
+
+
+
+/* MEDIA QUERY FORTH*/
+
+@media only screen and (max-width:768px) {
+  /* ABOUT US PAGE */
+
+  #aboutcontainer::before {
+    content: "";
+    position: absolute;
+    height: 600px;
+    width: 100%;
+    background: url('../imgswm/aboutbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    opacity: 0.3;
+    margin-left: -12px;
+
+  }
+
+  #aboutimg img {
+    margin-top: 3%;
+    height: 90%;
+    width: 80%;
+    /* margin: 6% 6%; */
+  }
+  #aboutmyself {
+    height: 50%;
+    width: 80%;
+    /* margin: 6% 5%; */
+    /* padding: 4% 6%;
+    padding-bottom: 10%; */
+    background-color: rgba(67, 168, 186, 0.59);
+    border: 2px solid blueviolet;
+    border-radius: 2%;
+    font-weight: 100;
+  }
+
+  #aboutmyself {
+    height: 90%;
+    width: 80%;
+    /* margin: -2% 4%; */
+    padding:4px;
+    background-color: rgba(67, 168, 186, 0.59);
+    border: 2px solid blueviolet;
+    border-radius: 2%;
+    font-weight: 100;
+  }
+
+
+  #comingsooncontainer::before {
+    content: "";
+    position: absolute;
+    height: 439px;
+    width: 100%;
+    background: url('../imgswm/img_4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+    opacity: 0.77;
+    margin-left: -12px;
+  }
+
+  #comingsooneveryone {
+    height: 50%;
+    width: 100%;
+    padding-top: 5%;
+    background-color: rgba(119, 166, 207, 0.632);
+    margin-bottom: 12px;
+    margin-top: 4%;
+    padding-bottom: 1%;
+    border: 4px solid rgba(17, 116, 203, 0.339);
+
+  }
+}
+
+
+
+
+
+
+/* MEDIA QUERY FORTH*/
+
+
+
+@media only screen and (max-width:576px) {
+/* ABOUT US PAGE */
+
+#aboutcontainer::before {
+  content: "";
+  position: absolute;
+  height: 600px;
+  width: 100%;
+  background: url('../imgswm/aboutbg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  opacity: 0.3;
+  margin-left: -12px;
+
+}
+
+#aboutimg img {
+  height: 70%;
+  width: 70%;
+}
+
+#aboutmyself {
+  height: 87%;
+  width: 100%;
+  /* margin: -2% 9%; */
+  /* padding: 4% -4%; */
+  background-color: rgba(67, 168, 186, 0.59);
+  border: 2px solid blueviolet;
+  /* border-radius: 2%; */
+}
+#aboutoutercontainer{
+height: 100px;
+width: 100%;
+}
+
+/* COMING SOON */
+
+
+#comingsooncontainer::before {
+  content: "";
+  position: absolute;
+  height: 520px;
+  width: 100%;
+  background: url('../imgswm/img_4.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+  opacity: 0.77;
+  margin-left: -12px;
+}
+
+#comingsoon {
+  height:60%;
+  width: 100%;
+  padding-top: 2%;
+  background-color: rgba(119, 166, 207, 0.632);
+  margin-bottom: 3%;
+  margin-top: 4%;
+  padding-bottom: 2%;
+  border: 4px solid rgba(36, 239, 25, 0.339);
+  border-radius: 0%;
+}
+
+#comingsooneveryone {
+  height: 56%;
+  width: 100%;
+  padding-top: 5%;
+  background-color: rgba(119, 166, 207, 0.632);
+  margin-bottom: 12px;
+  margin-top: 4%;
+  padding-bottom: 1%;
+  border: 4px solid rgba(17, 116, 203, 0.339);
+  
+} 
+}
